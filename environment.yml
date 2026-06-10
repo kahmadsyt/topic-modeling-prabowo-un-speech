@@ -1,0 +1,26 @@
+name: topic-mining
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - notebook
+  - ipykernel
+  - openpyxl
+  - pip:
+      - bertopic
+      - sentence-transformers
+      - umap-learn
+      - hdbscan
+      - plotly
+      - wordcloud
+      - streamlit
