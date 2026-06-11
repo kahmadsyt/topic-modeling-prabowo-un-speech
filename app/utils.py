@@ -10,21 +10,13 @@ from PIL import Image
 def get_project_root() -> Path:
     """
     Mengembalikan root project berdasarkan lokasi file app.py.
-
-    Struktur yang diasumsikan:
-    project-root/
-    ├── app/
-    │   ├── app.py
-    │   └── utils.py
-    ├── reports/
-    └── data/
     """
     return Path(__file__).resolve().parents[1]
 
 
 def resolve_path(relative_path: str) -> Path:
     """
-    Mengubah path relatif dari root project menjadi Path absolut.
+    Mengubah path relatif dari root project menjadi path absolut.
     """
     return get_project_root() / relative_path
 
@@ -32,10 +24,7 @@ def resolve_path(relative_path: str) -> Path:
 @st.cache_data(show_spinner=False)
 def load_csv(relative_path: str) -> Optional[pd.DataFrame]:
     """
-    Membaca file CSV dari path relatif.
-
-    Jika file tidak ditemukan, fungsi mengembalikan None agar dashboard
-    tetap berjalan dan menampilkan warning.
+    Membaca CSV dari path relatif terhadap root project.
     """
     file_path = resolve_path(relative_path)
 
@@ -48,7 +37,7 @@ def load_csv(relative_path: str) -> Optional[pd.DataFrame]:
 @st.cache_data(show_spinner=False)
 def load_markdown(relative_path: str) -> Optional[str]:
     """
-    Membaca file Markdown dari path relatif.
+    Membaca file Markdown dari path relatif terhadap root project.
     """
     file_path = resolve_path(relative_path)
 
@@ -60,17 +49,17 @@ def load_markdown(relative_path: str) -> Optional[str]:
 
 def render_missing_file_warning(relative_path: str) -> None:
     """
-    Menampilkan warning jika file yang dibutuhkan belum tersedia.
+    Menampilkan informasi jika file belum tersedia.
     """
     st.warning(
-        f"File belum ditemukan: `{relative_path}`. "
-        "Pastikan notebook Tahap 07 sudah dijalankan dan output sudah tersedia di repository."
+        f"File `{relative_path}` belum tersedia. "
+        "Pastikan output analisis sudah tersedia di repository."
     )
 
 
 def render_dataframe_section(title: str, df: Optional[pd.DataFrame], relative_path: str, height: int = 360) -> None:
     """
-    Menampilkan tabel dengan validasi file.
+    Menampilkan tabel dengan keterangan sumber file.
     """
     st.subheader(title)
 
@@ -78,13 +67,13 @@ def render_dataframe_section(title: str, df: Optional[pd.DataFrame], relative_pa
         render_missing_file_warning(relative_path)
         return
 
-    st.caption(f"Sumber: `{relative_path}`")
+    st.caption(f"Sumber data: `{relative_path}`")
     st.dataframe(df, use_container_width=True, height=height)
 
 
 def render_metric_from_df(df: Optional[pd.DataFrame], label: str, metric_name: str, default_value: str = "-") -> None:
     """
-    Menampilkan metric dari tabel dua kolom: metric, value.
+    Menampilkan nilai metrik dari tabel metric-value.
     """
     value = default_value
 
@@ -126,7 +115,7 @@ def render_png_image(relative_path: str, caption: Optional[str] = None, use_cont
 
 def make_download_button_for_dataframe(df: Optional[pd.DataFrame], file_name: str, label: str) -> None:
     """
-    Membuat tombol download CSV untuk DataFrame.
+    Membuat tombol unduh CSV.
     """
     if df is None:
         return
@@ -151,3 +140,47 @@ def shorten_text(text: str, max_chars: int = 350) -> str:
         return text
 
     return text[:max_chars].rstrip() + "..."
+
+
+def value_count_df(df: pd.DataFrame, column: str, label_name: str, count_name: str = "Jumlah") -> pd.DataFrame:
+    """
+    Membuat tabel value counts yang stabil lintas versi Pandas.
+    """
+    if df is None or column not in df.columns:
+        return pd.DataFrame(columns=[label_name, count_name])
+
+    result = (
+        df[column]
+        .fillna("Tidak tersedia")
+        .astype(str)
+        .str.strip()
+        .replace("", "Tidak tersedia")
+        .value_counts()
+        .rename_axis(label_name)
+        .reset_index(name=count_name)
+    )
+
+    return result
+
+def value_count_df(df, column, label_name, count_name="Jumlah"):
+    """
+    Membuat tabel value counts yang stabil lintas versi Pandas.
+    Digunakan untuk membuat distribusi kategori pada dashboard.
+    """
+    import pandas as pd
+
+    if df is None or column not in df.columns:
+        return pd.DataFrame(columns=[label_name, count_name])
+
+    result = (
+        df[column]
+        .fillna("Tidak tersedia")
+        .astype(str)
+        .str.strip()
+        .replace("", "Tidak tersedia")
+        .value_counts()
+        .rename_axis(label_name)
+        .reset_index(name=count_name)
+    )
+
+    return result
