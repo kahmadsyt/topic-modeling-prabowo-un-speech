@@ -1,0 +1,23 @@
+{
+  "stage": "03_text_chunking",
+  "input_file": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_preprocessed_master.csv",
+  "outputs": {
+    "speech_chunks_master": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_chunks_master.csv",
+    "speech_chunks_for_bertopic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_chunks_for_bertopic.csv",
+    "chunking_summary_by_speech": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\chunking_summary_by_speech.csv",
+    "chunking_quality_report": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\chunking_quality_report.csv"
+  },
+  "input_speech_count": 6,
+  "total_chunk_count": 74,
+  "chunking_config": {
+    "strategy": "sentence_based_chunking_with_small_overlap",
+    "target_words": 220,
+    "min_words": 80,
+    "max_words": 320,
+    "overlap_sentences": 1,
+    "source_text_for_manual_coding": "text_for_manual_coding",
+    "source_text_for_bertopic": "text_for_bertopic",
+    "created_at": "2026-06-11T21:58:28"
+  },
+  "created_at": "2026-06-11T21:59:43"
+}

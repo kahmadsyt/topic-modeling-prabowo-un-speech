@@ -1,0 +1,7 @@
+﻿speech_id,file_name,speech_title_from_filename,forum_scope_inferred,event_date,language_estimate,chunk_count,total_chunk_words,avg_chunk_words,min_chunk_words,max_chunk_words,total_chunk_chars,flagged_chunk_count
+SPCH_001_BRICS_LEADERS,NASKAH-PIDATO-PRABOWO-BRICS-LEADERS.txt,Brics Leaders,international,2025-09-08,en,2,269,134.5,42,227,1704,1
+SPCH_002_PANEN_RAYA,NASKAH-PIDATO-PRABOWO-PANEN-RAYA.txt,Panen Raya,national,2026-01-07,id,17,3859,227.0,127,268,27325,0
+SPCH_003_PERESMIAN_INFRASTRUKTUR_ENERGI,NASKAH-PIDATO-PRABOWO-PERESMIAN-INFRASTRUKTUR-ENERGI.txt,Peresmian Infrastruktur Energi,national,,id,12,2756,229.67,207,247,19383,0
+SPCH_004_PERESMIAN_166_SEKOLAH,NASKAH-PIDATO-PRABOWO-PERESMIAN-166-SEKOLAH.txt,Peresmian 166 Sekolah,national,,id,17,3983,234.29,179,348,27964,1
+SPCH_005_WORLD_ECONOMIC_FORUM,NASKAH-PIDATO-PRABOWO-WORLD-ECONOMIC-FORUM.txt,World Economic Forum,international,2026-01-22,en,17,3917,230.41,216,263,22928,0
+SPCH_006_PBB_80,NASKAH-PIDATO-PRABOWO-PBB-80.txt,Pbb 80,international,,en,9,1961,217.89,119,252,11884,0

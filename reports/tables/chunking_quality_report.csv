@@ -1,0 +1,10 @@
+﻿metric,value,description
+input_speech_count,6.0,Jumlah pidato unik pada input Tahap 02.
+total_chunk_count,74.0,Jumlah total chunk yang terbentuk.
+avg_chunk_word_count,226.28,Rata-rata jumlah kata per chunk.
+min_chunk_word_count,42.0,Jumlah kata terkecil dalam satu chunk.
+max_chunk_word_count,348.0,Jumlah kata terbesar dalam satu chunk.
+ok_chunk_count,72.0,Jumlah chunk dengan quality flag OK.
+flagged_chunk_count,2.0,Jumlah chunk dengan quality flag selain OK.
+unique_chunk_hash_count,74.0,Jumlah hash chunk unik.
+duplicate_chunk_hash_count,0.0,Jumlah chunk yang terindikasi duplikat berdasarkan hash.
