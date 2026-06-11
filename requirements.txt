@@ -1,6 +1,14 @@
-streamlit
 pandas
 numpy
-plotly
 matplotlib
+plotly
 wordcloud
+Pillow
+scikit-learn
+sentence-transformers
+bertopic
+umap-learn
+hdbscan
+jupyter
+ipykernel
+streamlit
