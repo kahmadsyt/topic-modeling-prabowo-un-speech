@@ -1,0 +1,47 @@
+{
+  "stage": "07_visualization_interpretation_final_reporting",
+  "input_files": {
+    "comparative_analysis_manual_vs_bertopic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\comparative_analysis_manual_vs_bertopic.csv",
+    "comparative_metrics_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_metrics_summary.csv",
+    "bertopic_topic_manual_theme_mapping": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\bertopic_topic_manual_theme_mapping.csv",
+    "manual_theme_bertopic_topic_mapping": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_theme_bertopic_topic_mapping.csv",
+    "comparative_narrative_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_narrative_summary.csv",
+    "representative_documents_by_topic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\representative_documents_by_topic.csv",
+    "comparative_coverage_report": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_coverage_report.csv",
+    "comparative_crosstab_theme_topic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_crosstab_theme_topic.csv",
+    "comparative_crosstab_theme_topic_pct": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_crosstab_theme_topic_pct.csv"
+  },
+  "outputs": {
+    "final_manual_theme_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\final_manual_theme_summary.csv",
+    "final_bertopic_topic_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\final_bertopic_topic_summary.csv",
+    "final_comparative_interpretation": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\final_comparative_interpretation.csv",
+    "final_key_findings": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\final_key_findings.csv",
+    "final_representative_evidence": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\final_representative_evidence.csv",
+    "final_manual_theme_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\final_manual_theme_distribution.html",
+    "final_bertopic_topic_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\final_bertopic_topic_distribution.html",
+    "final_topic_purity_bar": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\final_topic_purity_bar.html",
+    "final_comparative_heatmap": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\final_comparative_heatmap.html",
+    "final_manual_theme_topic_alignment": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\final_manual_theme_topic_alignment.html",
+    "final_report_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\final_report_summary.md",
+    "final_presentation_notes": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\final_presentation_notes.md"
+  },
+  "summary": {
+    "manual_total_chunk_count": 74,
+    "manual_reviewed_chunk_count": 71,
+    "manual_excluded_chunk_count": 3,
+    "bertopic_modeled_document_count": 71,
+    "bertopic_topic_count_including_outlier": 15,
+    "bertopic_topic_count_excluding_outlier": 14,
+    "outlier_document_count": 2,
+    "dominant_manual_theme": "Pembangunan manusia dan keadilan sosial",
+    "largest_bertopic_topic_id": "0"
+  },
+  "metrics": {
+    "normalized_mutual_information": 0.334,
+    "adjusted_mutual_information": 0.1263,
+    "homogeneity": 0.45,
+    "completeness": 0.2656,
+    "v_measure": 0.334
+  },
+  "created_at": "2026-06-12T00:05:57"
+}

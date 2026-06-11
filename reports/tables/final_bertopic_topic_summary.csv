@@ -1,0 +1,16 @@
+﻿bertopic_topic_id,dominant_manual_selective_theme,dominant_theme_count,topic_document_count,topic_purity,Name,auto_topic_label,top_keywords,topic_type
+0,Kedaulatan dan kemandirian nasional,8,13,0.6154,0_bupati_hadir_menteri_hormati,bupati / hadir / menteri / hormati / wali kota,"bupati, hadir, menteri, hormati, wali kota, wali, saudari, gubernur",Cluster
+1,"Diplomasi, perdamaian, dan keadilan global",2,7,0.2857,1_kampus_stability_growth_peace stability,kampus / stability / growth / peace stability / over,"kampus, stability, growth, peace stability, over, always, economy, it",Cluster
+2,Kedaulatan dan kemandirian nasional,4,6,0.6667,2_energi_menghasilkan_kesulitan_hasilkan,energi / menghasilkan / kesulitan / hasilkan / tergantung,"energi, menghasilkan, kesulitan, hasilkan, tergantung, tim, kemampuan, luar",Cluster
+3,Kedaulatan dan kemandirian nasional,3,6,0.5,3_000_rice_years_000 murid,000 / rice / years / 000 murid / 83,"000, rice, years, 000 murid, 83, 83 000, sasaran, villages",Cluster
+4,Pembangunan manusia dan keadilan sosial,3,5,0.6,4_kemerdekaan_dia_perang_mau,kemerdekaan / dia / perang / mau / enggak,"kemerdekaan, dia, perang, mau, enggak, rakyat, perang kemerdekaan, tentara",Cluster
+5,Kedaulatan dan kemandirian nasional,3,5,0.6,5_swasembada_amran_harga_tokoh,swasembada / amran / harga / tokoh / kulitnya,"swasembada, amran, harga, tokoh, kulitnya, jadi, petani, anaknya",Cluster
+6,Pembangunan manusia dan keadilan sosial,4,4,1.0,6_anak_orang tuamu_tuamu_son,anak / orang tuamu / tuamu / son / kau,"anak, orang tuamu, tuamu, son, kau, ya, anak anak, dukungan",Cluster
+7,"Diplomasi, perdamaian, dan keadilan global",4,4,1.0,7_united nations_nations_united_peace,united nations / nations / united / peace / all,"united nations, nations, united, peace, all, together, secure, may",Cluster
+8,Pembangunan manusia dan keadilan sosial,3,4,0.75,8_koperasi_meals_day_guru,koperasi / meals / day / guru / desember,"koperasi, meals, day, guru, desember, ribu, koperasi merah, panels",Cluster
+9,"Diplomasi, perdamaian, dan keadilan global",2,3,0.6667,9_brics_best_danantara_now,brics / best / danantara / now / biggest,"brics, best, danantara, now, biggest, fully support, fully, finance",Cluster
+10,Kedaulatan dan kemandirian nasional,1,3,0.3333,10_sudah_proyek_mengerti_juta,sudah / proyek / mengerti / juta / sembilan,"sudah, proyek, mengerti, juta, sembilan, sita, singapura, siapkan",Cluster
+11,Pembangunan manusia dan keadilan sosial,3,3,1.0,11_akal_berjuang_masuk akal_leader,akal / berjuang / masuk akal / leader / negara begini,"akal, berjuang, masuk akal, leader, negara begini, bagaimana negara, many them, masuk",Cluster
+12,Keberlanjutan lingkungan dan sumber daya,1,3,0.3333,12_persen_sekarang_jadi bangsa_selama,persen / sekarang / jadi bangsa / selama / petani,"persen, sekarang, jadi bangsa, selama, petani, million hectares, hectares, mampu",Cluster
+13,"Diplomasi, perdamaian, dan keadilan global",1,3,0.3333,13_my_praktik_determined_markup,my / praktik / determined / markup / nature,"my, praktik, determined, markup, nature, there, one, down",Cluster
+-1,Keberlanjutan lingkungan dan sumber daya,1,2,0.5,-1_melindungi_ancaman_melindungi ancaman_pertumbuhan,Outlier / tidak terklaster,"melindungi, ancaman, melindungi ancaman, pertumbuhan, merdeka, who save, berani melihat, tujuan",Outlier

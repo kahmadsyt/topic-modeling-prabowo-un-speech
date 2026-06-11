@@ -1,0 +1,7 @@
+﻿finding_id,finding_title,finding_description
+KF01,Jumlah data analisis final,"Manual Coding mencakup 74 chunk, dengan 71 chunk berstatus REVIEWED dan 3 chunk berstatus EXCLUDED. BERTopic dijalankan pada 71 chunk substantif."
+KF02,Tema manual paling dominan,Tema manual paling dominan adalah 'Pembangunan manusia dan keadilan sosial' dengan 24 chunk.
+KF03,Jumlah topik BERTopic,"BERTopic menghasilkan 15 label topik termasuk outlier. Jumlah topik non-outlier adalah 14, sedangkan jumlah dokumen pada topik outlier -1 adalah 2."
+KF04,Topik BERTopic terbesar,Topik BERTopic terbesar adalah Topic 0 dengan 13 chunk dan dominan berkaitan dengan tema manual 'Kedaulatan dan kemandirian nasional'.
+KF05,Tema dengan alignment terkuat,Alignment terkuat muncul pada tema manual 'Keberlanjutan lingkungan dan sumber daya' dengan dominant BERTopic Topic -1 dan theme concentration 0.5.
+KF06,Kesesuaian Manual Coding dan BERTopic,"Metrik clustering menunjukkan NMI=0.334, AMI=0.1263, Homogeneity=0.45, Completeness=0.2656, dan V-measure=0.334. Nilai ini menunjukkan tingkat hubungan antara tema manual dan struktur topik BERTopic, bukan akurasi klasifikasi."
