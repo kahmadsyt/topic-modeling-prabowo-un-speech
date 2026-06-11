@@ -1,0 +1,6 @@
+﻿metric,value,interpretation
+normalized_mutual_information,0.334,Mengukur hubungan informasi antara tema manual dan topik BERTopic.
+adjusted_mutual_information,0.1263,Mengukur hubungan informasi setelah dikoreksi terhadap peluang acak.
+homogeneity,0.45,Mengukur apakah setiap topik BERTopic cenderung berisi satu tema manual.
+completeness,0.2656,Mengukur apakah dokumen dari tema manual yang sama cenderung masuk topik yang sama.
+v_measure,0.334,Rata-rata harmonik antara homogeneity dan completeness.

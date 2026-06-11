@@ -1,0 +1,8 @@
+﻿metric,value,description
+manual_total_chunk_count,74,Jumlah seluruh chunk pada manual_coding_final.csv.
+manual_reviewed_chunk_count,71,Jumlah chunk dengan coding_status REVIEWED.
+manual_excluded_chunk_count,3,Jumlah chunk dengan coding_status EXCLUDED.
+manual_needs_discussion_chunk_count,0,Jumlah chunk dengan coding_status NEEDS_DISCUSSION.
+bertopic_modeled_document_count,71,Jumlah dokumen chunk yang masuk ke BERTopic.
+manual_not_in_bertopic_count,3,Jumlah chunk manual yang tidak muncul dalam output BERTopic.
+bertopic_not_in_manual_count,0,Jumlah doc_id BERTopic yang tidak ada pada manual coding.

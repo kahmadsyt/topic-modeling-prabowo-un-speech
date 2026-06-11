@@ -1,0 +1,35 @@
+{
+  "stage": "06_comparative_analysis_manual_vs_bertopic",
+  "input_files": {
+    "manual_coding_final": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\manual_coding_final.csv",
+    "bertopic_document_topics_with_manual_reference": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_document_topics_with_manual_reference.csv",
+    "bertopic_topic_info": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_topic_info.csv",
+    "bertopic_topic_keywords": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_topic_keywords.csv"
+  },
+  "outputs": {
+    "comparative_analysis_manual_vs_bertopic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\comparative_analysis_manual_vs_bertopic.csv",
+    "comparative_crosstab_theme_topic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_crosstab_theme_topic.csv",
+    "comparative_crosstab_theme_topic_pct": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_crosstab_theme_topic_pct.csv",
+    "bertopic_topic_manual_theme_mapping": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\bertopic_topic_manual_theme_mapping.csv",
+    "manual_theme_bertopic_topic_mapping": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_theme_bertopic_topic_mapping.csv",
+    "comparative_metrics_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_metrics_summary.csv",
+    "representative_documents_by_topic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\representative_documents_by_topic.csv",
+    "comparative_narrative_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_narrative_summary.csv",
+    "comparative_coverage_report": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\comparative_coverage_report.csv",
+    "comparative_heatmap_manual_theme_vs_bertopic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\comparative_heatmap_manual_theme_vs_bertopic.html",
+    "comparative_stacked_bar_manual_theme_by_topic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\comparative_stacked_bar_manual_theme_by_topic.html",
+    "manual_vs_bertopic_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\manual_vs_bertopic_distribution.html"
+  },
+  "manual_total_chunk_count": 74,
+  "bertopic_modeled_document_count": 71,
+  "comparative_analysis_row_count": 71,
+  "manual_excluded_chunk_count": 3,
+  "metrics": {
+    "normalized_mutual_information": 0.334,
+    "adjusted_mutual_information": 0.1263,
+    "homogeneity": 0.45,
+    "completeness": 0.2656,
+    "v_measure": 0.334
+  },
+  "created_at": "2026-06-11T23:51:35"
+}
