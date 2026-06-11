@@ -1,0 +1,7 @@
+﻿metric,value,description
+input_chunk_count,74,Jumlah chunk input dari Tahap 03.
+manual_template_row_count,74,Jumlah baris pada template manual coding.
+unique_chunk_id_count,74,Jumlah chunk_id unik pada template.
+unreviewed_row_count,74,Jumlah baris yang belum direview manual.
+manual_open_code_filled_count,0,Jumlah baris yang sudah memiliki manual_open_code_1. Pada template awal biasanya 0.
+source_speech_count,6,Jumlah pidato unik pada template manual coding.

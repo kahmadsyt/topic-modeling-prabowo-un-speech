@@ -1,0 +1,20 @@
+{
+  "stage": "04_manual_coding_open_axial_selective",
+  "input_file": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_chunks_master.csv",
+  "outputs": {
+    "manual_coding_codebook": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\interim\\manual_coding_codebook.csv",
+    "manual_coding_template": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\interim\\manual_coding_template.csv",
+    "manual_coding_rule_assisted_draft": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\interim\\manual_coding_rule_assisted_draft.csv",
+    "manual_coding_suggestion_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_coding_suggestion_summary.csv",
+    "manual_coding_quality_report": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_coding_quality_report.csv",
+    "manual_coding_final": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\manual_coding_final.csv",
+    "manual_coding_final_theme_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_coding_final_theme_distribution.csv",
+    "manual_coding_final_axial_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_coding_final_axial_distribution.csv",
+    "manual_coding_final_code_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\manual_coding_final_code_distribution.csv"
+  },
+  "input_chunk_count": 74,
+  "source_speech_count": 6,
+  "codebook_open_code_count": 13,
+  "manual_reviewed_file_found": true,
+  "created_at": "2026-06-11T23:09:41"
+}

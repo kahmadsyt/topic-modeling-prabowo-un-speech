@@ -1,0 +1,7 @@
+﻿metric,value,description
+total_chunks,74,Jumlah total chunk yang masuk ke template manual coding.
+chunks_with_suggestion,74,Jumlah chunk yang memiliki minimal satu saran kode berbasis keyword.
+chunks_needing_manual_review,0,Jumlah chunk yang tidak memiliki kecocokan keyword dan perlu direview manual.
+high_confidence_suggestions,49,Jumlah chunk dengan suggestion confidence HIGH.
+medium_confidence_suggestions,17,Jumlah chunk dengan suggestion confidence MEDIUM.
+low_confidence_suggestions,8,Jumlah chunk dengan suggestion confidence LOW.
