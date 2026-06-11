@@ -1,4 +1,4 @@
-# Topic Modeling of President Prabowo's UN General Assembly Speech using Manual Analysis and BERTopic
+# Analisis Komputasional Topik Pidato Presiden Prabowo pada Forum Nasional dan Internasional Menggunakan Manual Coding dan BERTopic
 
 ## Project Overview
 
