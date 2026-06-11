@@ -1,0 +1,10 @@
+﻿metric,value,description
+input_document_count_before_filter,74,Jumlah dokumen chunk sebelum filtering.
+modeling_document_count,71,Jumlah dokumen chunk yang digunakan untuk BERTopic.
+excluded_document_count,3,Jumlah dokumen chunk yang tidak digunakan untuk BERTopic.
+topic_count_excluding_outlier,14,Jumlah topik valid di luar topik outlier -1.
+outlier_document_count,2,Jumlah dokumen dengan topic_id -1.
+outlier_ratio,0.0282,Rasio dokumen outlier terhadap total dokumen modeling.
+average_topic_probability,0.7382,Rata-rata probabilitas topik tertinggi per dokumen.
+embedding_model_name,paraphrase-multilingual-MiniLM-L12-v2,Model sentence embedding yang digunakan.
+manual_exclusion_filter_used,True,Menunjukkan apakah filtering EXCLUDED dari manual coding digunakan.

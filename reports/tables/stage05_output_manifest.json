@@ -1,0 +1,44 @@
+{
+  "stage": "05_bertopic_modeling",
+  "input_files": {
+    "speech_chunks_for_bertopic": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_chunks_for_bertopic.csv",
+    "speech_chunks_master": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\speech_chunks_master.csv",
+    "manual_coding_final": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\manual_coding_final.csv"
+  },
+  "outputs": {
+    "bertopic_document_topics": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_document_topics.csv",
+    "bertopic_topic_info": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_topic_info.csv",
+    "bertopic_topic_keywords": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_topic_keywords.csv",
+    "bertopic_document_topics_with_manual_reference": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\data\\processed\\bertopic_document_topics_with_manual_reference.csv",
+    "bertopic_modeling_summary": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\bertopic_modeling_summary.csv",
+    "bertopic_topic_distribution": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\tables\\bertopic_topic_distribution.csv",
+    "bertopic_topic_barchart": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\bertopic_topic_barchart.html",
+    "bertopic_topics_overview": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\bertopic_topics_overview.html",
+    "bertopic_topic_distribution_bar": "D:\\DATA-KAMIL\\MATKUL\\SEMESTER-1\\DATA-MINING\\topic-modeling-prabowo-un-speech\\reports\\figures\\bertopic_topic_distribution_bar.html"
+  },
+  "input_document_count_before_filter": 74,
+  "modeling_document_count": 71,
+  "topic_count_excluding_outlier": 14,
+  "outlier_document_count": 2,
+  "outlier_ratio": 0.0282,
+  "manual_exclusion_filter_used": true,
+  "bertopic_config": {
+    "embedding_model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+    "umap_n_neighbors": 5,
+    "umap_n_components": 5,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_min_cluster_size": 3,
+    "hdbscan_min_samples": 1,
+    "hdbscan_metric": "euclidean",
+    "vectorizer_ngram_range": [
+      1,
+      2
+    ],
+    "vectorizer_min_df": 1,
+    "ctfidf_reduce_frequent_words": true,
+    "calculate_probabilities": true,
+    "random_state": 42
+  },
+  "created_at": "2026-06-11T23:38:27"
+}

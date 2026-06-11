@@ -1,0 +1,16 @@
+﻿bertopic_topic_id,bertopic_topic_name,is_outlier_topic,document_count,avg_topic_probability,avg_chunk_word_count
+0,0_bupati_hadir_menteri_hormati,False,13,0.7301,229.85
+1,1_kampus_stability_growth_peace stability,False,7,0.5441,228.57
+2,2_energi_menghasilkan_kesulitan_hasilkan,False,6,0.5945,229.33
+3,3_000_rice_years_000 murid,False,6,0.6481,230.5
+4,4_kemerdekaan_dia_perang_mau,False,5,0.6708,233.2
+5,5_swasembada_amran_harga_tokoh,False,5,0.6554,232.0
+6,6_anak_orang tuamu_tuamu_son,False,4,0.7934,219.5
+7,7_united nations_nations_united_peace,False,4,0.8138,203.5
+8,8_koperasi_meals_day_guru,False,4,0.8526,242.75
+9,9_brics_best_danantara_now,False,3,1.0,167.0
+10,10_sudah_proyek_mengerti_juta,False,3,1.0,234.33
+11,11_akal_berjuang_masuk akal_leader,False,3,1.0,229.0
+12,12_persen_sekarang_jadi bangsa_selama,False,3,1.0,231.67
+13,13_my_praktik_determined_markup,False,3,1.0,227.67
+-1,-1_melindungi_ancaman_melindungi ancaman_pertumbuhan,True,2,0.0934,223.0
